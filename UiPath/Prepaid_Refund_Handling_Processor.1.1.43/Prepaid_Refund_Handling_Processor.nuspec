@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Prepaid_Refund_Handling_Processor</id>
+    <version>1.1.43</version>
+    <title>Prepaid_Refund_Handling_Processor</title>
+    <authors>srvprdrpa_user11</authors>
+    <owners>srvprdrpa_user11</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Process is about Creating a spam/Malacious tickets in CIM</description>
+    <tags>VisualBasic VB UiPathStudioProcess</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="BalaReva.Pdf.Activities" version="[2019.3.0]" />
+        <dependency id="Microsoft.Activities" version="[1.0.1]" />
+        <dependency id="Microsoft.Activities.Extensions" version="[2.0.6.9]" />
+        <dependency id="UiPath.Database.Activities" version="1.4.0" />
+        <dependency id="UiPath.Excel.Activities" version="[2.9.3]" />
+        <dependency id="UiPath.Mail.Activities" version="[1.7.2]" />
+        <dependency id="UiPath.PDF.Activities" version="[3.4.1]" />
+        <dependency id="UiPath.System.Activities" version="[20.10.1]" />
+        <dependency id="UiPath.UIAutomation.Activities" version="[20.10.6]" />
+        <dependency id="UiPath.WebAPI.Activities" version="[1.11.1]" />
+        <dependency id="UiPath.Word.Activities" version="[1.10.1]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

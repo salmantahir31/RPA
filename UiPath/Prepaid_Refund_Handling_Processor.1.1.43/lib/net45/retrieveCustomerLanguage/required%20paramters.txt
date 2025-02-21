@@ -1,0 +1,17 @@
+CRMGWLanguageJSON	
+"{
+    'accountNumber':'[ACCOUNT_NUMBER]',
+    'virtualProduct':true,
+    'requiredInfo': {
+        'accounts': true,
+        'latestAccount': true,
+        'subscription': true
+    }
+}"
+
+
+CRMGWRetrievecustomerEndpoint	
+http://cbcm-gw.wip.etisalat.corp.ae/gw/rest/crm/v1/retrievecustomer
+
+CRMGW_PWD
+CRMGW_PWD

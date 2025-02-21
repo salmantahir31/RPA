@@ -1,0 +1,7 @@
+Sub Macro1()
+
+Worksheets("Weekend PIR FSC").Range(" ").Select
+Range(Selection, Selection.End(xlToRight)).Select
+Selection.BorderAround ColorIndex:=1
+
+End Sub

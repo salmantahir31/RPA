@@ -1,0 +1,154 @@
+<Activity mc:Ignorable="sads sap sap2010" x:Class="ClosedOpenedTab" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ClosedOpenedTab_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.IMAP.Activities</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.POP3.Activities</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Orchestrator.Client</x:String>
+      <x:String>UiPath.Orchestrator.Client.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Plugin.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="464,68" Id="UiElementExists_1" />
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="314,106" Id="ClickImage_1" />
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="336,230" Id="Sequence_6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="464,378" Id="If_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="486,610" Id="Sequence_4">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="512,772" Id="DoWhile_1" />
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="534,896" Id="Sequence_5">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData sap:VirtualizedContainerService.HintSize="574,1016" Id="ClosedOpenedTab_1" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5" sads:DebugSymbol.Symbol="d2RDOlxVc2Vyc1xiYXNoaW5kZVxEb2N1bWVudHNcVWlQYXRoXEludm9pY2VOb3RSZWNlaXZlZFVSTVNCb3QxXFJlc3VhYmxlV29ya0Zsb3dzXENsb3NlZE9wZW5lZFRhYi54YW1sDlADdg4CAQFUBXQPAgECVFtUaAIBEFUHcxICAQNWCVoeAgELWwlyDgIBBFhOWMIBAgEPWM0BWNMBAgEOVkFWTgIBDFsXWyQCAQVdDXAYAgEHXg9vHwIBCG1pbaMBAgEKaj1qQgIBCQ==">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="istabOpen" />
+    </Sequence.Variables>
+    <DoWhile DisplayName="Do While" sap2010:WorkflowViewState.IdRef="DoWhile_1" Condition="[istabOpen]">
+      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <ui:UiElementExists DisplayName="Element Exists" Exists="[istabOpen]" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+          <ui:UiElementExists.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c8c46b05-5059-4b20-aceb-72e52bf48acd" Selector="&lt;html title='Unified Request Management System' /&gt;&lt;webctrl tag='EM' aaname='Display Which Request?' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+          </ui:UiElementExists.Target>
+        </ui:UiElementExists>
+        <If Condition="[istabOpen]" sap2010:WorkflowViewState.IdRef="If_1">
+          <If.Then>
+            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe Unified'" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="True">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADwAAAAaCAYAAADrCT9ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANCSURBVFhH7ZbNS1RhFIff/6F/IGjRIlpZ23aji6BVkjoqRC4iPzD6gEDNQRMKRxcqNNDCMU3ETTgMiEyLPrYy2IRgCEKC4EIwBMPG6TTPa+dy7+sdwYVwcTrw4Lm/c94z93ff+6GRKovqM1wqlaSaMMViUaoJc3BwINWE2d/fl2rC7O3tyUn44zS1qGJ2d3elEsSXt9OSuHZd3j1+KqXDw0ANjVrm5St77F8bVczOzo6EQWD2TeyGyMdp+fzonrxuvWt1ArPZtgZbW4jf8kyHzYoSZnt7W1wIz+z7YZH0M/sX0+woWLO+mt902MyoYLa2tsSFW3e8vkF+DZd3FEOph0eUc0x7Zn16cfyBvRBE2MyoYDY3N8WFyGeykrxy8ch02RSGwF6AMuj2uFwjp5e7govlzqupqfFIpVLH6mfB0NCQtLS0HNPNxsaGuGhgQE2XXtwORc1yO2PWnYXJwcHBwPH8/Hyg5yzgN5ubm4/pZn19XSpB8HLC0J/nN0Ohxu1PuOsnJiakrq4uoM3NzUkul7N5d3d3YPe1zhpA868fGBjwejETpjNTNX+PYtbW1qQSBM8lLyR2U56UX2I+MMzzTA+7667v6uqyuLoyNjbm5Zzs7OysRfOlpaVjOhr9XAjWo5PrHHK0RCIh8Xjc0xWzuroqYRDsrpr93VETCqY/3a+3nyxM+2f09/dLZ2dnQHNpamqyRmBmZsZCrnXVmUWvf+3i4qLVdb2CFtYPplAoiAvBM4lZDMmdC1Jsu2xRo3pMjd3GNBeI0Dmjo6NSW1sbmI3W0dEh2WzWnlxfX5/V6ZuamrKgaz85Gn2NjY2erpxWNysrK+JC8Fx+j189MvQPDPLMws/WS4EaF0Fvbf8sTri3tzdwnE6nLeRomrt6WH8mk7E6ZrhwIyMjAZ0cjd+kR+coJp/Piwvx42vBGlDTapZbV19kapoejr/lPti1/lkLCwv2JJRkMunVYrGY1Tgx6OnpkcnJSatpDzkaOWt1Dmu1p7293dPJ0ZjFTO1RzPLysrhoYBojakj/kyL0k6U1vtsEOxw2MyqEGgYNTLOrGCT8dUxy6+vO+tdHlYqGwY2T6m4tqpxo+Dzy3/B5p8oML8tfNXXmmd2lZTUAAAAASUVORK5CYII=" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8bceec54-e248-4d09-a53a-35dcbec21863" Selector="&lt;html title='Unified Request Management System' /&gt;" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+            </Sequence>
+          </If.Then>
+        </If>
+      </Sequence>
+    </DoWhile>
+  </Sequence>
+</Activity>
