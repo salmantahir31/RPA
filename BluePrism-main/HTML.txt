@@ -1,0 +1,105 @@
+"Hi " &[Employee Name]&",
+
+<p>Please claim ASAP and if you are taking leaves next week, please update PMP and let me know to ensure our forecast are accurate on your billable and availability.</p>
+<h4>GBS Un-Billed Code Reference:</h4>
+<table style=""width:100%"">
+    <tr>
+    <td>Bench</td>
+    <td>SKSI - GBSUNBIL - VL0000</td>
+  </tr>
+<tr>
+<td>Training</td>
+<td>SKSI - Approved IBM Learning - VL0947</td>
+</tr>
+<tr>
+<td>Awaiting Billable</td>
+<td>SKSI - WAIT - VL0850</td>
+</tr>
+<tr>
+<td>Awaiting Cost Recovery</td>
+<td>SKSI - WAIT - VL0820</td>
+</tr>
+<tr>
+<td>Awaiting B&P</td>
+<td>SKSI - WAIT - VL0830</td>
+</tr>
+<tr>
+<td>Awaiting Strategic Investment</td>
+ <td>SKSI - WAIT - VL0840</td>
+</tr>
+</table>
+<br>
+<h4>Vacation Activity Codes under SK77 (For Reference):</h4>
+<p>Non productive Activities. Non cross charging<br>
+
+TIMEAWAY: To be used by IBM Regular employee’s only.
+TIMEAWCT: To be used by contractors</p>
+<br>
+<table style=""width:100%"">
+<tr>
+<th>Activity</th>
+<th>Intended use</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>XL0A00</td>
+<td>Vacation</td>
+<td>All vacation within your standard IBM entitlement</td>
+</tr>
+<tr>
+<td>XL0B00</td>
+<td>Designated Holliday</td>
+<td>Bank Holidays and “IBM” given holidays</td>
+</tr>
+<tr>
+<td>XL0C00</td>
+<td>Optional Holiday</td>
+<td>Agreed additional holiday e.g. short-term unpaid leave of absence, time off in lieu and SWS(flextime).</td>
+</tr>
+<tr>
+<td>XL0D00</td>
+<td>Illness</td>
+<td>Should include all planned and unplanned illness, accident, hospitalisation and appointments to doctors, dentists, opticians etc. Not for long term sick.</td>
+</tr>
+<tr>
+<td>XL0E00</td>
+<td>Administration</td>
+<td>Do Not Use</td>
+</tr>
+<tr>
+<td>XL0F00</td>
+<td>Support</td>
+<td>Do Not Use</td>
+</tr>
+<tr>
+<td>XL0G00</td>
+<td>Personal Business</td>
+<td>IBM agreed funded leave authorised by IBM management e.g. school governorship, prison visiting, Justice of Peace, other charity work.</td>
+</tr>
+<tr>
+<td>XL0I00</td>
+<td>Paid Time not Worked</td>
+<td>Any additional leave authorised by IBM management, e.g.: compassionate leave, maternity/paternity leave, long term sickness and jury service.</td>
+</tr>
+<tr>
+<td>XL0J00</td>
+<td>Unpaid Time not Worked</td>
+<td>This should be used as a filter for part-timers to record the difference between their contracted hours(not hours worked) and 37 hours.</td>
+</tr>
+<tr>
+<td>XL0M00</td>
+<td>TIMEAWCT ONLY</td>
+<td>MILITARY TIME AWAY</td>
+</tr>
+<tr>
+<td>XL0N00</td>
+<td>TIMEAWCT ONLY</td>
+<td>ACCIDENT</td>
+</tr>
+</table> 
+<br>
+<h4>For Contractors:</h4>
+
+For vacations please use Account ID: SK00 and than vacation code.<br><br>
+
+<h5>Thank You.</h5>"

@@ -1,0 +1,5 @@
+insert into dbo.emp_data (EMP_NAME,EMP_SERIAL_NO,EMP_COUNTRY_NO,EMP_INTERNET_ID,MANG_EMAIL,BLUE_PAGES_UID) values('ALI, M','Y9DPVG','808','Ali.Muhammad2@ibm.com','','Y9DPVG808');
+
+
+
+
